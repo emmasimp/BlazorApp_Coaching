@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorApp_CoachingProject
+build_property.RootNamespace = BlazorApp_CoachingProject
+build_property.ProjectDir = /home/mbexkes3/git-repos/BlazorApp_CoachingProject/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/mbexkes3/git-repos/BlazorApp_CoachingProject
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/Layout/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvU3VydmV5UHJvbXB0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/Pages/ExpertDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FeHBlcnREZXRhaWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9JbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/Pages/ListExperts.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9MaXN0RXhwZXJ0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/Pages/ViewProfile.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9WaWV3UHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-reo4ce8yvg
+
+[/home/mbexkes3/git-repos/BlazorApp_CoachingProject/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-lcljd5bc0e

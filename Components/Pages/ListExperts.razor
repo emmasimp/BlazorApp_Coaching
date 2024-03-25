@@ -1,0 +1,42 @@
+﻿@page "/listexperts"
+
+<PageTitle>List</PageTitle>
+
+@using BlazorAppEmma.Data
+
+<h1>List of Experts</h1>
+
+@if (persons == null || persons.Count == 0)
+{
+    <p><em>No person data</em></p>
+}
+else
+{
+    <p>Initial data</p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Action</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Research interests</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (PersonExpert pe in persons)
+            {
+                <tr>
+                    <td>@pe.Id</td>
+                    <td>
+                        <button @onclick="() => EditPerson(pe.Id)" class="btn btn-primary">Edit</button>
+                    </td>
+                    <td>@pe.FirstName</td>
+                    <td>@pe.LastName</td>
+                    <td>@pe.ResearchInterest</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

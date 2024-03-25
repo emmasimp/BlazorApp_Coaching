@@ -1,0 +1,49 @@
+﻿@page "/expertdetail/{id:int}"
+
+<PageTitle>List</PageTitle>
+
+@using BlazorAppEmma.Data
+
+<h1>Expert Detail</h1>
+
+<EditForm Model="@personProfile">
+
+    @if (!String.IsNullOrEmpty(errMsg))
+    {
+        <div class="row">
+            <div class="col-12 text-danger"><string>Error!</string> @errMsg</div>
+        </div>
+        <br />
+    }
+    <div class="row">
+        <div class="col-2">Id</div>
+        <div class="col-2">@personProfile.Id</div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">Firstname</div>
+        <div class="col-2">
+            <InputText @bind-Value="personProfile.FirstName" class="form-control" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">Lastname</div>
+        <div class="col-2">
+            <InputText @bind-Value="personProfile.LastName" class="form-control" />
+        </div>
+
+        @*<div class="col-2">@personProfile.LastName</div>*@
+    </div>
+
+
+    <div class="row">
+        <div class="col-1 d-grid">
+            <button @onclick="() => Save()" class="btn btn-primary">Save</button>
+        </div>
+        <div class="col-1 d-grid">
+            <button @onclick="() => Cancel()" class="btn btn-secondary">Cancel</button>
+        </div>
+    </div>
+
+</EditForm>

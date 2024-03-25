@@ -1,0 +1,5 @@
+/home/mbexkes3/git-repos/BlazorApp_CoachingProject/obj/Debug/net8.0/BlazorApp_CoachingProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/mbexkes3/git-repos/BlazorApp_CoachingProject/obj/Debug/net8.0/BlazorApp_CoachingProject.AssemblyInfoInputs.cache
+/home/mbexkes3/git-repos/BlazorApp_CoachingProject/obj/Debug/net8.0/BlazorApp_CoachingProject.AssemblyInfo.cs
+/home/mbexkes3/git-repos/BlazorApp_CoachingProject/obj/Debug/net8.0/BlazorApp_CoachingProject.csproj.CoreCompileInputs.cache
+/home/mbexkes3/git-repos/BlazorApp_CoachingProject/obj/Debug/net8.0/BlazorApp_CoachingProject.MvcApplicationPartsAssemblyInfo.cache

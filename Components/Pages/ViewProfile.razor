@@ -1,0 +1,33 @@
+@page "/viewprofile/{Id:int}"
+
+<p>User Id: @Id</p>
+
+<PageTitle>List</PageTitle>
+
+@using BlazorAppEmma.Data
+
+<p>Current Profile</p>
+
+<div class="row">
+
+<div class="col-2">
+
+first name</div>
+
+<div class="col-6">@currentprofile.FirstName</div>
+
+</div>
+
+<div class="row">
+
+<div class="col-2">
+
+last name</div>
+
+<div class="col-6">@currentprofile.LastName</div>
+
+</div>
+
+
+
+
