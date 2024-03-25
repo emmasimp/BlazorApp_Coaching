@@ -2,7 +2,7 @@
 
 <PageTitle>List</PageTitle>
 
-@using BlazorAppEmma.Data
+@using BlazorApp_CoachingProject.Data
 
 <h1>Expert Detail</h1>
 
@@ -11,7 +11,9 @@
     @if (!String.IsNullOrEmpty(errMsg))
     {
         <div class="row">
-            <div class="col-12 text-danger"><string>Error!</string> @errMsg</div>
+            <div class="col-12 text-danger">
+                <string>Error!</string> @errMsg
+            </div>
         </div>
         <br />
     }

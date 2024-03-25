@@ -2,7 +2,7 @@
 
 <PageTitle>List</PageTitle>
 
-@using BlazorAppEmma.Data
+@using BlazorApp_CoachingProject.Data
 
 <h1>List of Experts</h1>
 
@@ -15,17 +15,17 @@ else
     <p>Initial data</p>
 
     <table class="table">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Action</th>
-                <th>First name</th>
-                <th>Last name</th>
-                <th>Research interests</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (PersonExpert pe in persons)
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Action</th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Research interests</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (PersonExpert pe in persons)
             {
                 <tr>
                     <td>@pe.Id</td>

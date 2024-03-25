@@ -20,7 +20,7 @@ namespace BlazorApp_CoachingProject.Pages
         //     Value = Value ?? "fantastic";
         // }
 
-        protected async override Task OnInitializedAsync()
+        protected override void OnInitialized()
         {
             int given_id = 1;
             currentprofile = profileService.GetProfileById(given_id);

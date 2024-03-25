@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Components;
 
-namespace BlazorAppEmma.Data
+namespace BlazorApp_CoachingProject.Data
 {
     public class ProfileService
     {
@@ -53,7 +53,7 @@ namespace BlazorAppEmma.Data
 
                 return true;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 err = ex.Message;
                 return false;

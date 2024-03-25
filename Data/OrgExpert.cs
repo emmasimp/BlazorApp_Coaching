@@ -1,4 +1,4 @@
-﻿namespace BlazorAppEmma.Data
+﻿namespace BlazorApp_CoachingProject.Data
 {
     public class OrgExpert : Profile
     {
