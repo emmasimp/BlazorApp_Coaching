@@ -6,3 +6,6 @@ artifacts/
 .vscode/
 .dotnet/
 *.binlog
+
+./BlazorApp/bin/
+./BlazorApp/obj/
